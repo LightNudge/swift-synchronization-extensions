@@ -1,7 +1,7 @@
 import Assertions
 import XCTest
 
-@testable import Synchronization
+@testable import SynchronizationExtensions
 
 final class SemaphoreTests: XCTestCase {
     func testSemaphore() async throws {

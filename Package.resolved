@@ -1,10 +1,10 @@
 {
-  "originHash" : "43dc647cf7667ae07ab406b5127081e9d9e563a5e37481327f72beb0d918032d",
+  "originHash" : "2527eaec861e3a4dd5e10f519bfc3482f773d77ce93aed4f94cd5519c3a4a89a",
   "pins" : [
     {
       "identity" : "swift-assertions",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/aetherealtech/swift-assertions",
+      "location" : "https://github.com/LightNudge/swift-assertions",
       "state" : {
         "revision" : "e66945f6db5372a5c615e974c534c0d89b76171c",
         "version" : "0.1.0"

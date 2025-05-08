@@ -1,7 +1,7 @@
 import Assertions
 import XCTest
 
-@testable import Synchronization
+@testable import SynchronizationExtensions
 
 @propertyWrapper
 final class UnsafeBox<T>: @unchecked Sendable {

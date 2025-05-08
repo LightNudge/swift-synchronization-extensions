@@ -1,7 +1,7 @@
 import Assertions
 import XCTest
 
-@testable import Synchronization
+@testable import SynchronizationExtensions
 
 final class EventTests: XCTestCase {
     func testEvent() async throws {

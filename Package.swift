@@ -3,25 +3,25 @@
 import PackageDescription
 
 let package = Package(
-    name: "Synchronization",
+    name: "SynchronizationExtensions",
     products: [
         .library(
-            name: "Synchronization",
-            targets: ["Synchronization"]
+            name: "SynchronizationExtensions",
+            targets: ["SynchronizationExtensions"]
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/aetherealtech/swift-assertions", from: .init(0, 1, 0)),
+        .package(url: "https://github.com/LightNudge/swift-assertions", from: .init(0, 1, 0)),
     ],
     targets: [
         .target(
-            name: "Synchronization",
+            name: "SynchronizationExtensions",
             dependencies: []
         ),
         .testTarget(
-            name: "SynchronizationTests",
+            name: "SynchronizationExtensionsTests",
             dependencies: [
-                "Synchronization",
+                "SynchronizationExtensions",
                 .product(name: "Assertions", package: "swift-assertions"),
             ]
         ),
